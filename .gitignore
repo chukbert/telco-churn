@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.env
+.venv
+streamlit_env/
+
+# Models and large files
+models/
+*.pkl
+*.h5
+*.keras
+
+# AWS credentials
+.aws/
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
