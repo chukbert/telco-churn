@@ -112,22 +112,6 @@ python test_endpoint.py --endpoint-name <endpoint-name> --test-type comprehensiv
 python test_endpoint.py --endpoint-name <endpoint-name> --test-type performance --num-requests 50
 ```
 
-## 💰 Cost Optimization
-
-### Training Costs:
-- **ml.m5.xlarge**: ~$0.192/hour
-- **Typical training time**: 10-15 minutes
-- **Estimated cost per training job**: ~$0.05
-
-### Inference Costs:
-- **ml.t2.medium**: ~$0.0464/hour (~$33/month)
-- **ml.m5.large**: ~$0.096/hour (~$69/month)
-
-### Cost-Saving Tips:
-1. **Delete endpoints** when not in use
-2. **Use smaller instances** for testing
-3. **Enable auto-scaling** for production
-
 ## 🔧 Troubleshooting
 
 ### Common Issues:
